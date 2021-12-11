@@ -54,8 +54,8 @@ def cmpHash(hash1,hash2):
             n=n+1
     return n
 
-img1=cv2.imread('/Users/yusi/Desktop/cv_palm/similarity/test4/05661.bmp')
-img2=cv2.imread('/Users/yusi/Desktop/cv_palm/similarity/test4/未标题-1.jpg')
+img1=cv2.imread('/Users/yusi/Desktop/cv_palm/skeleton_extraction/skeleton1.jpg')
+img2=cv2.imread('/Users/yusi/Desktop/cv_palm/similarity/test1/005_3.jpg')
 hash1= aHash(img1)
 hash2= aHash(img2)
 print(hash1)

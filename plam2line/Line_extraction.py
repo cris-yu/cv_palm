@@ -4,7 +4,7 @@
 # 
 # CreateDate: 2019-2-21
 import cv2
-image = cv2.imread("/Users/yusi/Desktop/cv_palm/similarity/005_3.jpg")
+image = cv2.imread("/Users/yusi/Desktop/cv_palm/similarity/test3/PolyU_06_1.bmp")
 cv2.imshow("palm",image) #to view the palm in python
 cv2.waitKey(0)
 
