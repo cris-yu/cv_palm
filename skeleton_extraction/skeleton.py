@@ -44,7 +44,7 @@ array = [0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1,\
 
 
 if __name__ == '__main__':
-    src = cv2.imread('/Users/yusi/Desktop/cv_palm/similarity/test3/未标题-1.jpg', 0)
+    src = cv2.imread('/Users/yusi/Desktop/cv_palm/plam2line/palmlines.jpg', 0)
     Gauss_img = cv2.GaussianBlur(src, (3,3), 0)
     cv2.imshow('image', Gauss_img)
     cv2.waitKey(0)
