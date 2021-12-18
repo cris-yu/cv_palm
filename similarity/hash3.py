@@ -65,8 +65,8 @@ def Hamming_distance(hash1,hash2):
             num += 1
     return num
 if __name__ == "__main__":
-    image_file1 = '/Users/yusi/Desktop/cv_palm/similarity/test1/005_3.jpg'
-    image_file2 = '/Users/yusi/Desktop/cv_palm/skeleton_extraction/skeleton2.jpg'
+    image_file1 = '/Users/yusi/Desktop/cv_palm/plam2line/palmlines.jpg'
+    image_file2 = '/Users/yusi/Desktop/cv_palm/skeleton_extraction/skeleton1.jpg'
     img1 = cv2.imread(image_file1)
     img2 = cv2.imread(image_file2)
     hash1 = pHash(img1)
