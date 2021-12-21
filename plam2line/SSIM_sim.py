@@ -73,8 +73,8 @@ class CompareImage():
 compare_image = CompareImage()
 
 # 两两对比
-annos_image_path = glob.glob(path_to_annos_image)
-outflow_image_path = glob.glob(r'NG_outflow\*.bmp')
+annos_image_path = glob.glob("/Users/yusi/Desktop/cv_palm/plam2line/palmlines.jpg")
+outflow_image_path = glob.glob('/pic/palmlines1.jpg')
 score_list = []
 annos_images = []
 outflow_images = []

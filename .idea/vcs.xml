@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Palmprint_Recognition" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/line_enhance" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/photohash" vcs="Git" />
   </component>
 </project>

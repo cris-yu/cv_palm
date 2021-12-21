@@ -44,7 +44,7 @@ array = [0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1,\
 
 
 if __name__ == '__main__':
-    src = cv2.imread('/Users/yusi/Desktop/cv_palm/plam2line/palmlines.jpg', 0)
+    src = cv2.imread('/Users/yusi/Desktop/cv_palm/similarity/test4/未标题-1.jpg', 0)
     Gauss_img = cv2.GaussianBlur(src, (3,3), 0)
     cv2.imshow('image', Gauss_img)
     cv2.waitKey(0)
@@ -63,7 +63,7 @@ if __name__ == '__main__':
 
     cv2.imshow('binary', binary)
     cv2.imshow('binary_iThin', iThin_2)
-    cv2.imwrite("skeleton2.jpg", iThin_2)
+    cv2.imwrite("../pic/skeleton2.jpg", iThin_2)
     skeleton = cv2.imread("skeleton.jpg")
     cv2.waitKey(0)
     cv2.destroyAllWindows()
